@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.contenedor {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f5f4f1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja {
+    width: 375px;
+    max-width: 90%;
+    padding: 20px;
+    background-color: #eae7e3;
+    color: #333;
+}
+
+.caja h3 {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.caja p {
+    font-size: 15px;
+    line-height: 1.5;
+}

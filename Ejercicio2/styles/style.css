@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.menu-vertical {
+    width: 600px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.elemento {
+    background-color: #dedede;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.elemento a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 6px 10px;
+}
+
+.elemento a:hover {
+    background-color: #c9c9c9;
+}
